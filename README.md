@@ -129,18 +129,4 @@ HASH_LOOKUP(
 
 ---
 
-## Resumen visual
 
-```
-┌─────────────────────────────────────────────────────┐
-│                 BÚSQUEDA HASH                        │
-│                                                     │
-│  Valor origen → [Función Hash] → Número clave       │
-│                                        ↓            │
-│                              Tabla de búsqueda      │
-│                                        ↓            │
-│                            Valor de reemplazo       │
-│                                        ↓            │
-│                              Columna de destino     │
-└─────────────────────────────────────────────────────┘
-```
