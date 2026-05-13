@@ -21,7 +21,7 @@ Valor original  →  Función Hash  →  Número (clave)  →  Tabla de búsqued
 Si el número generado por el hash **no existe** en la tabla de búsqueda, ocurre un **error de conversión**.
 
 ---
-
+Funciones Hash
 ---
 
 ## 1.  Función Módulo (por división)
@@ -162,6 +162,7 @@ H(K) = 461 + 1 = 462  → posición 462
 
 ---
 
+Tipos de Busqueda Hash
 
 | Tipo | Descripción |
 |---|---|
