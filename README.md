@@ -22,8 +22,6 @@ Si el número generado por el hash **no existe** en la tabla de búsqueda, ocurr
 
 ---
 
-[Uploading # 🔑 Funciones Hash — Explicación Detallada
-
 ---
 
 ## 1.  Función Módulo (por división)
