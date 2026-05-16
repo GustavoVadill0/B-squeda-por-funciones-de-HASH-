@@ -268,7 +268,7 @@ HASH_LOOKUP(
 
 
 
-## 5. Colisiones y cómo resolverlas
+##  Colisiones y cómo resolverlas
 
 Una **colisión** ocurre cuando dos claves diferentes producen el mismo índice:
 
@@ -281,7 +281,7 @@ Las colisiones son inevitables cuando hay más claves que posiciones en la tabla
 
 ---
 
-### 5.1 Encadenamiento (Chaining)
+###  Encadenamiento (Chaining)
 
 Cada celda de la tabla contiene una **lista enlazada** con todos los elementos que colisionaron en ese índice.
 
@@ -300,7 +300,7 @@ Cada celda de la tabla contiene una **lista enlazada** con todos los elementos q
 
 ---
 
-### 5.2 Direccionamiento abierto (Open Addressing)
+### Direccionamiento abierto (Open Addressing)
 
 Todos los elementos se almacenan dentro de la propia tabla. Cuando hay colisión, se busca la **siguiente celda disponible** según una estrategia de sondeo.
 
@@ -332,7 +332,7 @@ Se usan dos funciones hash. Es el método de direccionamiento abierto que produc
 
 ---
 
-## 6. Factor de carga
+## Factor de carga
 
 El **factor de carga** (`α`) mide qué tan llena está la tabla hash:
 
@@ -355,7 +355,7 @@ Cuando el factor de carga supera cierto umbral, se aplica **rehashing**: se crea
 
 ---
 
-## 7. Análisis de complejidad
+##  Análisis de complejidad
 
 ### Complejidad temporal
 
@@ -403,7 +403,7 @@ A medida que `α` se acerca a 1, el número de comparaciones crece de forma no l
 
 ---
 
-## 8. Casos de uso
+##  Casos de uso
 
 ### Cuándo ES la mejor opción
 
@@ -437,7 +437,7 @@ Los compiladores usan tablas hash para almacenar variables, funciones y tipos du
 
 ---
 
-## 9. Comparativa: Hash vs Búsqueda Binaria
+##  Comparativa: Hash vs Búsqueda Binaria
 
 La búsqueda binaria es el método más común que compite directamente con el hashing en escenarios de búsqueda estática o semi-estática.
 
@@ -462,7 +462,7 @@ En la práctica, muchos sistemas combinan ambos: usan **índices hash** para bú
 
 ---
 
-## 10. Ejemplo en Python
+## Ejemplo en Python
 
 Implementación de una tabla hash con **encadenamiento** para resolver colisiones, en Python:
 
