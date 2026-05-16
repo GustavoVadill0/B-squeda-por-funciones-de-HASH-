@@ -1,3 +1,9 @@
+'''
+Cetz Iuit Adiel Josue
+García Granados Jesus Amilcar 
+Vadillo Canul Gustavo Angel
+''' 
+
 import time
 
 class TablaHashDirecta:
